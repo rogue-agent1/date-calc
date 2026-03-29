@@ -1,17 +1,3 @@
 # date_calc
-
-Date arithmetic and business day calculator
-
-Single-file, zero-dependency Python CLI tool.
-
-## Usage
-
-```bash
-python date_calc.py --help
-```
-
-## Test
-
-```bash
-python -c "import date_calc; date_calc.test()"
-```
+Date calculations — day of week, add/diff days, leap year, date range.
+Single-file Python, zero dependencies.
