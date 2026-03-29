@@ -1,11 +1,17 @@
 # date_calc
 
-date_calc - Date arithmetic: add/subtract days, diff, weekday, leap year.
+Date arithmetic and business day calculator
+
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 date_calc.py --test
+python date_calc.py --help
 ```
 
-Zero dependencies. Python 3.8+.
+## Test
+
+```bash
+python -c "import date_calc; date_calc.test()"
+```
